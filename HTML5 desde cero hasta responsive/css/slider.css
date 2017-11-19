@@ -1,0 +1,32 @@
+#particles-js{
+	background: url(../img/bg_test.jpg);
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+}
+
+.ancho-letras{
+	top: 200px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+
+.letras-slide{
+	width: 80%;
+	margin: auto;
+}
+
+.letras-slide h1{
+	color: #fff;
+	font-family: raleway-regular;
+	font-size: 70px;
+}
+
+.letras-slide p{
+	color: #fff;
+	font-family: raleway-regular;
+	font-size: 20px;
+	padding-top: 50px;
+}
