@@ -37,17 +37,20 @@
 	color: #85c34a;
 	font-size: 50px;
 	font-weight: bold;
+	font-family: Lato, sans-serif;
 }
 
 .dolar{
 	font-size: 20px;
 	vertical-align: super;
+	font-family: Lato, sans-serif;
 }
 
 .mes{
 	font-size: 10px;
 	vertical-align: text-bottom;
 	color: #999;
+	font-family: Lato, sans-serif;
 }
 
 .lista-precios{
@@ -60,10 +63,12 @@
 .lista-espacios{
 	padding: 0.25em;
 	font-size: 15px;
+	font-family: Lato, sans-serif;
 }
 
 .boton-contratar{
 	margin-bottom: 25px;
+	font-family: Lato, sans-serif;
 }
 
 .contratar-a{

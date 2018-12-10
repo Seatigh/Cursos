@@ -1,0 +1,185 @@
+@font-face {
+	font-family: Frizz Quadrata;
+	src: url(fonts/frizzquadratatt.ttf);
+
+}
+@font-face {
+	font-family: Fantasque Sans Mono;
+	src: url(fonts/fantasquesansmono/fantasquesansmono-regular.otf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+/**********
+ * COLORS *
+ **********/
+
+.bg-primary-color{
+	background: #5b105b;
+}
+
+.bg-secondary-color{
+	background: #ba14ba;
+}
+
+.primary-color{
+	color: #ba14ba;
+}
+
+.secondary-color{
+	color: #5b105b;
+}
+
+.color-black{
+	color: #000;
+}
+
+.color-white{
+	color: #fff;
+}
+
+/**********
+ * NAVBAR *
+ **********/
+
+header{
+	width: 100%;
+	height: 5em;
+	background: rgba(91, 16, 91);
+	position: fixed;
+	top: 0px;
+	/*z-index: 10;*/
+	overflow: hidden;
+}
+
+.navbar{
+	width: 80%;
+	height: 5em;
+	margin: auto;
+}
+
+.logo{
+	width: 25%;
+	height: 4em;
+	float: left;
+	padding: 0.5em 0 0.5em 0;
+}
+
+.logo p a{
+	font-family: Fantasque Sans Mono;
+	font-size: 4em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav{
+	width: 75%;
+	height: 4em;
+	float: left;
+	text-align: left;
+	padding: 1.5em 0 0.5em 0;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	color: #fff;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 1.5em;
+	letter-spacing: 1px;
+	font-family: Fantasque Sans Mono;
+}
+
+nav ul li a:hover{
+	color: #777;
+}
+
+.lock{
+	color: #777;
+	pointer-events: none;
+	cursor: default;
+}
+
+/********
+ * BODY *
+ ********/
+
+.container{
+	padding-top: 5em;
+	width: 100%;
+	/*height: 100%;*/
+}
+
+.row{
+	width: 100%;
+	height: 40em;
+	text-align: left;
+}
+
+.row h1{
+	margin: 10px;
+	padding-left: 3em;
+	font-size: 3em;
+	font-family: Fantasque Sans Mono;
+}
+
+.twitch-video{
+	margin-left: 8em;
+	padding: 10px;
+	height: 720px;
+	width: 1280px;
+	float: left;
+}
+
+.twitch-video-border{
+	margin-left: 8em;
+	/*padding: 10px;*/
+	height: 720px;
+	width: 1280px;
+	float: left;
+	border: 10px solid #ba14ba;
+	border-radius: 15px;
+	z-index: 10px;
+	position: absolute;
+}
+
+.twitch-chat{
+	margin: 0 1em 0 1em;
+	padding: 10px;
+	height: 720px;
+	width: 350px;
+	float: left;
+}
+
+.twitch-chat-border{
+	margin: 0 1em 0 1em;
+	padding: 10px;
+	height: 720px;
+	width: 350px;
+	float: left;
+	border: 10px solid #ba14ba;
+	border-radius: 15px;
+	z-index: 10px;
+	position: absolute;
+}
+}
+
+/*@media only screen and (max-width: 480px){
+	
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	
+}*/

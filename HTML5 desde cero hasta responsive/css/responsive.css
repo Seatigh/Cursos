@@ -1,0 +1,31 @@
+@media only screen and (max-width: 480px){
+	.red{
+		display: none;
+	}
+	.columnsx3{
+		width: 100%;
+	}
+	.tablax4{
+		width: 100%;
+	}
+	.tablaxd{
+		width: 100%;
+	}
+	.caja-1{
+		width: 100%;
+	}
+	.caja-2{
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	.red{
+		display: none;
+	}
+	.tablax4{
+		width: 100%;
+	}
+	.tablaxd{
+		width: 100%;
+	}
+}

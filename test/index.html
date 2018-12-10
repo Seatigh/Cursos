@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Luci94</title>
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	<script src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+</head>
+<body>
+	<header class="bg-primary-color">
+		<div class="navbar">
+			<div class="logo">
+				<p><a class="color-white" href="index.html">Luci94</a></p>
+			</div>
+			<nav>
+				<ul>
+					<li><a class="" href="#"><i class="fas fa-home"></i> Home</a></li>
+					<li><a class="" href="https://twitter.com/PinkBlissey" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+					<li><a class="" href="https://discord.gg/5r4cNN" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
+					<li><a class="" href="#Contact"><i class="fas fa-user-md"></i> Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="container">
+		<div class="row">
+			<h1 class="secondary-color">Twitch</h1>
+
+			<!-- FULL MODE: VIDEO + CHAT -->
+			<!-- Add a placeholder for the Twitch embed -->
+			<!--<div id="twitch-embed"></div>-->
+
+			<!-- Load the Twitch embed script -->
+			<!--<script src="https://embed.twitch.tv/embed/v1.js"></script>-->
+
+			<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+			<!--<script type="text/javascript">
+				new Twitch.Embed("twitch-embed", {
+					width: 1600,
+					height: 720,
+					channel: "luci94"
+				});
+			</script>-->
+
+
+			<!--MEJOR DE ESTA MANERA PARA SEPARAR VÍDEO Y CHAT-->
+			<!-- VIDEO -->
+			<div class="twitch-video-border">
+				
+			</div>
+			<div class="twitch-video">
+				<iframe
+					src="http://player.twitch.tv/?channel={luci94}"
+					height="720"
+					width="1280"
+					frameborder="0"
+					scrolling="no"
+					allowfullscreen="true">
+				</iframe>
+			</div>
+			<!-- CHAT -->
+			<div class="twitch-chat-border">
+				
+			</div>
+			<div class="twitch-chat bg-primary-color">
+				<iframe
+					frameborder="0"
+					scrolling="yes"
+					id="luci94_chat"
+					src="https://www.twitch.tv/luci94/chat"
+					height="720"
+					width="350">
+				</iframe>
+			</div>
+			
+			
+		</div>
+		
+	</section>
+	
+	<!-- SCRIPTS -->
+	
+</body>
+</html>
